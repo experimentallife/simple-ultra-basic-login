@@ -3,7 +3,7 @@ from functools import wraps
 from flask import request, jsonify
 
 from src.config import app
-from src.models import UserModel\
+from src.models import UserModel
 
 def token_required(f):
     @wraps(f)
